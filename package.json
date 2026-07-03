@@ -1,0 +1,16 @@
+{
+  "name": "fullbackend-practice",
+  "version": "1.0.0",
+  "description": "connecting database with backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "database",
+    "connection",
+    "backend"
+  ],
+  "author": "Prince shah",
+  "license": "ISC"
+}
