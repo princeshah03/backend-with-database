@@ -3,14 +3,24 @@
   "version": "1.0.0",
   "description": "connecting database with backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "dev": "nodemon -r dotenv/config src/index.js"  
+},
   "keywords": [
     "database",
     "connection",
     "backend"
   ],
   "author": "Prince shah",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.3"
+  }
 }
